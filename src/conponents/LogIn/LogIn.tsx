@@ -56,6 +56,10 @@ const LogIn = () => {
         <Input type="password" label="Пароль" id='password' handleChange={ handleChange } isValid={ isPasslValid } />
         <Button changeColor={true} type="submit">Увійти</Button>
       </form>
+      <p className="font-medium my-[0.9375rem] sm:my-[1.25rem]">
+        Ще не з нами?
+        <span className="font-bold underline inline cursor-pointer" onClick={ () => alert('Please register!') }> Зареєструватися</span>
+      </p>
     </section>
   )
 }
