@@ -19,10 +19,10 @@ const Input = ({ type, label, handleChange, id, isValid }: InputProps) => {
         required
         onChange={ (e) => handleChange(e) }
       />
-      <label className="absolute top-[1.125rem] sm:top-[1.25rem] left-[0.937rem] pointer-events-none">{ label }</label>
+      <label className="absolute top-[1.125rem] sm:top-[1.25rem] left-[0.937rem] transition-all pointer-events-none">{ label }</label>
       {id === 'email' && !isValid && <p className="text-[0.875rem] sm:text-[1rem] text-red">Вкажіть вашу ел. пошту</p>}
       {id === 'password' && !isValid && <p className="text-[0.875rem] sm:text-[1rem] text-red">Мінімум 8 символів: цифри, великі та малі літери (a-z).</p>}
-      {type === 'password' &&
+      {id === 'password' &&
         <p
           className="underline inline cursor-pointer text-[0.875rem] sm:text-[1rem]"
           onClick={ () => alert('Forgot password?') }
