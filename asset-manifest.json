@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/ratatype-login/static/css/main.f783255e.css",
-    "main.js": "/ratatype-login/static/js/main.036fd7ad.js",
+    "main.js": "/ratatype-login/static/js/main.a6106966.js",
     "index.html": "/ratatype-login/index.html",
     "main.f783255e.css.map": "/ratatype-login/static/css/main.f783255e.css.map",
-    "main.036fd7ad.js.map": "/ratatype-login/static/js/main.036fd7ad.js.map"
+    "main.a6106966.js.map": "/ratatype-login/static/js/main.a6106966.js.map"
   },
   "entrypoints": [
     "static/css/main.f783255e.css",
-    "static/js/main.036fd7ad.js"
+    "static/js/main.a6106966.js"
   ]
 }
