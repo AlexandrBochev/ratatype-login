@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/ratatype-login/static/css/main.f783255e.css",
-    "main.js": "/ratatype-login/static/js/main.a6106966.js",
+    "main.css": "/ratatype-login/static/css/main.ecc289b1.css",
+    "main.js": "/ratatype-login/static/js/main.1b9a81e2.js",
     "index.html": "/ratatype-login/index.html",
-    "main.f783255e.css.map": "/ratatype-login/static/css/main.f783255e.css.map",
-    "main.a6106966.js.map": "/ratatype-login/static/js/main.a6106966.js.map"
+    "main.ecc289b1.css.map": "/ratatype-login/static/css/main.ecc289b1.css.map",
+    "main.1b9a81e2.js.map": "/ratatype-login/static/js/main.1b9a81e2.js.map"
   },
   "entrypoints": [
-    "static/css/main.f783255e.css",
-    "static/js/main.a6106966.js"
+    "static/css/main.ecc289b1.css",
+    "static/js/main.1b9a81e2.js"
   ]
 }
